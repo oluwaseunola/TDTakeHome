@@ -10,30 +10,30 @@
 		2942B4732A7C379C00E4C254 /* OnboardingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2942B4722A7C379C00E4C254 /* OnboardingViewModelTests.swift */; };
 		2942B4792A7C5ADF00E4C254 /* SettingsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2942B4782A7C5ADF00E4C254 /* SettingsViewModelTests.swift */; };
 		29E800762A7B63B5001AB9EF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29E800782A7B63B5001AB9EF /* Localizable.strings */; };
-		29E800822A7BDFAA001AB9EF /* DirectoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E800812A7BDFAA001AB9EF /* DirectoryList.swift */; };
 		29E800842A7BE1D8001AB9EF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E800832A7BE1D8001AB9EF /* Launch Screen.storyboard */; };
 		29E800862A7BEA23001AB9EF /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E800852A7BEA23001AB9EF /* SettingsViewModel.swift */; };
 		29E800892A7C1FA0001AB9EF /* MainDirectoryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E800882A7C1FA0001AB9EF /* MainDirectoryViewModelTests.swift */; };
 		29E8008C2A7C206E001AB9EF /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E8008B2A7C206E001AB9EF /* MockAPIService.swift */; };
 		29E8008E2A7C262B001AB9EF /* EnumExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E8008D2A7C262B001AB9EF /* EnumExtensions.swift */; };
 		29EFAB1B2A7D43D100C85AEA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EFAB1A2A7D43D100C85AEA /* StringExtension.swift */; };
-		29F44E4D2A7AB2680087A795 /* TDTakehomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E4C2A7AB2670087A795 /* TDTakehomeApp.swift */; };
 		29F44E512A7AB2690087A795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F44E502A7AB2690087A795 /* Assets.xcassets */; };
 		29F44E542A7AB2690087A795 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F44E532A7AB2690087A795 /* Preview Assets.xcassets */; };
 		29F44E7A2A7AB2C50087A795 /* EmployeeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E792A7AB2C50087A795 /* EmployeeModels.swift */; };
-		29F44E802A7AB34D0087A795 /* MainDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E7F2A7AB34D0087A795 /* MainDirectoryView.swift */; };
-		29F44E822A7AB35A0087A795 /* EmployeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E812A7AB35A0087A795 /* EmployeeDetailView.swift */; };
-		29F44E842A7AB3700087A795 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E832A7AB3700087A795 /* OnboardingView.swift */; };
-		29F44E872A7AB4C60087A795 /* DirectoryContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E862A7AB4C60087A795 /* DirectoryContainerView.swift */; };
-		29F44E8A2A7AB5460087A795 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E892A7AB5460087A795 /* Constants.swift */; };
-		29F44E8E2A7AB7610087A795 /* EmployeeDirectoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E8D2A7AB7610087A795 /* EmployeeDirectoryService.swift */; };
 		29F44E922A7AB8790087A795 /* APIErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E912A7AB8790087A795 /* APIErrors.swift */; };
 		29F44E942A7AB9690087A795 /* MainDirectoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E932A7AB9690087A795 /* MainDirectoryViewModel.swift */; };
-		29F44E972A7ABBD10087A795 /* DirectoryEmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E962A7ABBD10087A795 /* DirectoryEmployeeCell.swift */; };
-		29F44E992A7AC5ED0087A795 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E982A7AC5ED0087A795 /* SearchBar.swift */; };
-		29F44E9C2A7AC79C0087A795 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E9B2A7AC79C0087A795 /* SettingsView.swift */; };
 		29F44E9E2A7B179C0087A795 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E9D2A7B179C0087A795 /* OnboardingViewModel.swift */; };
 		29F44EA02A7B18B80087A795 /* DirectoryContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E9F2A7B18B80087A795 /* DirectoryContainerViewModel.swift */; };
+		29F49D6C2A7D5AC600EDF3BC /* TDTakehomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F49D6B2A7D5AC600EDF3BC /* TDTakehomeApp.swift */; };
+		29F49D6E2A7D5B2500EDF3BC /* EmployeeDirectoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F49D6D2A7D5B2500EDF3BC /* EmployeeDirectoryService.swift */; };
+		29F49D702A7D5B8900EDF3BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F49D6F2A7D5B8900EDF3BC /* Constants.swift */; };
+		29F49D802A7D5BBB00EDF3BC /* MainDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F49D732A7D5BBB00EDF3BC /* MainDirectoryView.swift */; };
+		29F49D812A7D5BBB00EDF3BC /* EmployeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F49D752A7D5BBB00EDF3BC /* EmployeeDetailView.swift */; };
+		29F49D822A7D5BBB00EDF3BC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F49D772A7D5BBB00EDF3BC /* SettingsView.swift */; };
+		29F49D832A7D5BBB00EDF3BC /* DirectoryEmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F49D782A7D5BBB00EDF3BC /* DirectoryEmployeeCell.swift */; };
+		29F49D842A7D5BBB00EDF3BC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F49D792A7D5BBB00EDF3BC /* SearchBar.swift */; };
+		29F49D852A7D5BBB00EDF3BC /* DirectoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F49D7A2A7D5BBB00EDF3BC /* DirectoryList.swift */; };
+		29F49D882A7D5BBB00EDF3BC /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F49D7F2A7D5BBB00EDF3BC /* OnboardingView.swift */; };
+		29F49D8B2A7D5D5C00EDF3BC /* DirectoryContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F49D8A2A7D5D5C00EDF3BC /* DirectoryContainerView.swift */; };
 		479367E9E1117B14DB0D43D7 /* Pods_TDTakehomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6573DA36B939B5277623498 /* Pods_TDTakehomeTests.framework */; };
 		4F6180F719FAA2C6D51B5C88 /* Pods_TDTakehome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9E9F55030E720FE308399A /* Pods_TDTakehome.framework */; };
 /* End PBXBuildFile section */
@@ -55,7 +55,6 @@
 		29E800792A7B63C7001AB9EF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		29E8007A2A7B63D5001AB9EF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		29E8007C2A7B6A5C001AB9EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		29E800812A7BDFAA001AB9EF /* DirectoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryList.swift; sourceTree = "<group>"; };
 		29E800832A7BE1D8001AB9EF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		29E800852A7BEA23001AB9EF /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		29E800872A7BEC37001AB9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -64,24 +63,25 @@
 		29E8008D2A7C262B001AB9EF /* EnumExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumExtensions.swift; sourceTree = "<group>"; };
 		29EFAB1A2A7D43D100C85AEA /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		29F44E492A7AB2670087A795 /* TDTakehome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDTakehome.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		29F44E4C2A7AB2670087A795 /* TDTakehomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TDTakehomeApp.swift; path = "../New Group/TDTakehomeApp.swift"; sourceTree = "<group>"; };
 		29F44E502A7AB2690087A795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29F44E532A7AB2690087A795 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		29F44E592A7AB2690087A795 /* TDTakehomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDTakehomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F44E792A7AB2C50087A795 /* EmployeeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModels.swift; sourceTree = "<group>"; };
-		29F44E7F2A7AB34D0087A795 /* MainDirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainDirectoryView.swift; path = "TDTakehome/New Group1/MainDirectoryView.swift"; sourceTree = SOURCE_ROOT; };
-		29F44E812A7AB35A0087A795 /* EmployeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailView.swift; sourceTree = "<group>"; };
-		29F44E832A7AB3700087A795 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		29F44E862A7AB4C60087A795 /* DirectoryContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DirectoryContainerView.swift; path = "TDTakehome/New Group1/New Group/DirectoryContainerView.swift"; sourceTree = SOURCE_ROOT; };
-		29F44E892A7AB5460087A795 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "TDTakehome/New Group1/New Group/Constants.swift"; sourceTree = SOURCE_ROOT; };
-		29F44E8D2A7AB7610087A795 /* EmployeeDirectoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmployeeDirectoryService.swift; path = "TDTakehome/New Group1/New Group/EmployeeDirectoryService.swift"; sourceTree = SOURCE_ROOT; };
 		29F44E912A7AB8790087A795 /* APIErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrors.swift; sourceTree = "<group>"; };
 		29F44E932A7AB9690087A795 /* MainDirectoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDirectoryViewModel.swift; sourceTree = "<group>"; };
-		29F44E962A7ABBD10087A795 /* DirectoryEmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryEmployeeCell.swift; sourceTree = "<group>"; };
-		29F44E982A7AC5ED0087A795 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
-		29F44E9B2A7AC79C0087A795 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = "TDTakehome/New Group1/Directory/Components/SettingsView.swift"; sourceTree = SOURCE_ROOT; };
 		29F44E9D2A7B179C0087A795 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		29F44E9F2A7B18B80087A795 /* DirectoryContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryContainerViewModel.swift; sourceTree = "<group>"; };
+		29F49D6B2A7D5AC600EDF3BC /* TDTakehomeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDTakehomeApp.swift; sourceTree = "<group>"; };
+		29F49D6D2A7D5B2500EDF3BC /* EmployeeDirectoryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDirectoryService.swift; sourceTree = "<group>"; };
+		29F49D6F2A7D5B8900EDF3BC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = TDTakehome/Resources/Constants.swift; sourceTree = SOURCE_ROOT; };
+		29F49D732A7D5BBB00EDF3BC /* MainDirectoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDirectoryView.swift; sourceTree = "<group>"; };
+		29F49D752A7D5BBB00EDF3BC /* EmployeeDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailView.swift; sourceTree = "<group>"; };
+		29F49D772A7D5BBB00EDF3BC /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		29F49D782A7D5BBB00EDF3BC /* DirectoryEmployeeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryEmployeeCell.swift; sourceTree = "<group>"; };
+		29F49D792A7D5BBB00EDF3BC /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		29F49D7A2A7D5BBB00EDF3BC /* DirectoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryList.swift; sourceTree = "<group>"; };
+		29F49D7F2A7D5BBB00EDF3BC /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		29F49D8A2A7D5D5C00EDF3BC /* DirectoryContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryContainerView.swift; sourceTree = "<group>"; };
 		3BB1A05F79E2DB6D6A1601DA /* Pods-TDTakehome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDTakehome.debug.xcconfig"; path = "Target Support Files/Pods-TDTakehome/Pods-TDTakehome.debug.xcconfig"; sourceTree = "<group>"; };
 		58097ECFCD1A5F5A9FA2BFAC /* Pods_TDTakehome_TDTakehomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDTakehome_TDTakehomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C46E26DE2494A8C4FF0727F /* Pods-TDTakehome-TDTakehomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDTakehome-TDTakehomeUITests.debug.xcconfig"; path = "Target Support Files/Pods-TDTakehome-TDTakehomeUITests/Pods-TDTakehome-TDTakehomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -165,7 +165,7 @@
 				29F44E8C2A7AB73E0087A795 /* Services */,
 				29F44E882A7AB5360087A795 /* Resources */,
 				29F44E762A7AB27D0087A795 /* Models */,
-				29F44E772A7AB2910087A795 /* Views */,
+				29F49D712A7D5BBB00EDF3BC /* Views */,
 				29F44E782A7AB29F0087A795 /* ViewModels */,
 				29F44E502A7AB2690087A795 /* Assets.xcassets */,
 				29F44E522A7AB2690087A795 /* Preview Content */,
@@ -201,18 +201,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		29F44E772A7AB2910087A795 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				29F44E852A7AB4B40087A795 /* DirectoryContainer */,
-				29F44E7E2A7AB3210087A795 /* Directory */,
-				29F44E9A2A7AC78C0087A795 /* SettingsView */,
-				29F44E7D2A7AB2F80087A795 /* Onboarding */,
-			);
-			name = Views;
-			path = "New Group1";
-			sourceTree = "<group>";
-		};
 		29F44E782A7AB29F0087A795 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,40 +212,12 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		29F44E7D2A7AB2F80087A795 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				29F44E832A7AB3700087A795 /* OnboardingView.swift */,
-			);
-			name = Onboarding;
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		29F44E7E2A7AB3210087A795 /* Directory */ = {
-			isa = PBXGroup;
-			children = (
-				29F44E7F2A7AB34D0087A795 /* MainDirectoryView.swift */,
-				29F44E812A7AB35A0087A795 /* EmployeeDetailView.swift */,
-				29F44E952A7ABBBB0087A795 /* Components */,
-			);
-			path = Directory;
-			sourceTree = "<group>";
-		};
-		29F44E852A7AB4B40087A795 /* DirectoryContainer */ = {
-			isa = PBXGroup;
-			children = (
-				29F44E862A7AB4C60087A795 /* DirectoryContainerView.swift */,
-			);
-			path = DirectoryContainer;
-			sourceTree = "<group>";
-		};
 		29F44E882A7AB5360087A795 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				290804902A7B5EDA0063E4DC /* Translations */,
 				2908048D2A7B5E640063E4DC /* Extensions */,
 				29F44E902A7AB8500087A795 /* Enums */,
-				29F44E892A7AB5460087A795 /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -265,7 +225,7 @@
 		29F44E8C2A7AB73E0087A795 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				29F44E8D2A7AB7610087A795 /* EmployeeDirectoryService.swift */,
+				29F49D6D2A7D5B2500EDF3BC /* EmployeeDirectoryService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -273,7 +233,7 @@
 		29F44E8F2A7AB8380087A795 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				29F44E4C2A7AB2670087A795 /* TDTakehomeApp.swift */,
+				29F49D6B2A7D5AC600EDF3BC /* TDTakehomeApp.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -282,26 +242,65 @@
 			isa = PBXGroup;
 			children = (
 				29F44E912A7AB8790087A795 /* APIErrors.swift */,
+				29F49D6F2A7D5B8900EDF3BC /* Constants.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
 		};
-		29F44E952A7ABBBB0087A795 /* Components */ = {
+		29F49D712A7D5BBB00EDF3BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				29F44E962A7ABBD10087A795 /* DirectoryEmployeeCell.swift */,
-				29F44E982A7AC5ED0087A795 /* SearchBar.swift */,
-				29E800812A7BDFAA001AB9EF /* DirectoryList.swift */,
+				29F49D892A7D5D0400EDF3BC /* Onboarding */,
+				29F49D722A7D5BBB00EDF3BC /* DirectoryContainer */,
+				29F49D742A7D5BBB00EDF3BC /* Directory */,
+				29F49D7E2A7D5BBB00EDF3BC /* SettingsView */,
+			);
+			name = Views;
+			path = TDTakehome/Views;
+			sourceTree = SOURCE_ROOT;
+		};
+		29F49D722A7D5BBB00EDF3BC /* DirectoryContainer */ = {
+			isa = PBXGroup;
+			children = (
+				29F49D8A2A7D5D5C00EDF3BC /* DirectoryContainerView.swift */,
+			);
+			path = DirectoryContainer;
+			sourceTree = "<group>";
+		};
+		29F49D742A7D5BBB00EDF3BC /* Directory */ = {
+			isa = PBXGroup;
+			children = (
+				29F49D732A7D5BBB00EDF3BC /* MainDirectoryView.swift */,
+				29F49D752A7D5BBB00EDF3BC /* EmployeeDetailView.swift */,
+				29F49D762A7D5BBB00EDF3BC /* Components */,
+			);
+			path = Directory;
+			sourceTree = "<group>";
+		};
+		29F49D762A7D5BBB00EDF3BC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				29F49D782A7D5BBB00EDF3BC /* DirectoryEmployeeCell.swift */,
+				29F49D792A7D5BBB00EDF3BC /* SearchBar.swift */,
+				29F49D7A2A7D5BBB00EDF3BC /* DirectoryList.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		29F44E9A2A7AC78C0087A795 /* SettingsView */ = {
+		29F49D7E2A7D5BBB00EDF3BC /* SettingsView */ = {
 			isa = PBXGroup;
 			children = (
-				29F44E9B2A7AC79C0087A795 /* SettingsView.swift */,
+				29F49D772A7D5BBB00EDF3BC /* SettingsView.swift */,
 			);
 			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		29F49D892A7D5D0400EDF3BC /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				29F49D7F2A7D5BBB00EDF3BC /* OnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		618DE33E6075C0A226F49273 /* Pods */ = {
@@ -499,25 +498,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29F44E802A7AB34D0087A795 /* MainDirectoryView.swift in Sources */,
-				29F44E822A7AB35A0087A795 /* EmployeeDetailView.swift in Sources */,
-				29F44E842A7AB3700087A795 /* OnboardingView.swift in Sources */,
+				29F49D812A7D5BBB00EDF3BC /* EmployeeDetailView.swift in Sources */,
 				29F44E7A2A7AB2C50087A795 /* EmployeeModels.swift in Sources */,
-				29E800822A7BDFAA001AB9EF /* DirectoryList.swift in Sources */,
-				29F44E8A2A7AB5460087A795 /* Constants.swift in Sources */,
+				29F49D842A7D5BBB00EDF3BC /* SearchBar.swift in Sources */,
+				29F49D832A7D5BBB00EDF3BC /* DirectoryEmployeeCell.swift in Sources */,
+				29F49D6C2A7D5AC600EDF3BC /* TDTakehomeApp.swift in Sources */,
+				29F49D6E2A7D5B2500EDF3BC /* EmployeeDirectoryService.swift in Sources */,
+				29F49D802A7D5BBB00EDF3BC /* MainDirectoryView.swift in Sources */,
 				29F44E9E2A7B179C0087A795 /* OnboardingViewModel.swift in Sources */,
-				29F44E992A7AC5ED0087A795 /* SearchBar.swift in Sources */,
-				29F44E872A7AB4C60087A795 /* DirectoryContainerView.swift in Sources */,
-				29F44E4D2A7AB2680087A795 /* TDTakehomeApp.swift in Sources */,
-				29F44E8E2A7AB7610087A795 /* EmployeeDirectoryService.swift in Sources */,
+				29F49D882A7D5BBB00EDF3BC /* OnboardingView.swift in Sources */,
 				29EFAB1B2A7D43D100C85AEA /* StringExtension.swift in Sources */,
+				29F49D8B2A7D5D5C00EDF3BC /* DirectoryContainerView.swift in Sources */,
 				29F44E942A7AB9690087A795 /* MainDirectoryViewModel.swift in Sources */,
-				29F44E972A7ABBD10087A795 /* DirectoryEmployeeCell.swift in Sources */,
 				29F44E922A7AB8790087A795 /* APIErrors.swift in Sources */,
+				29F49D702A7D5B8900EDF3BC /* Constants.swift in Sources */,
+				29F49D852A7D5BBB00EDF3BC /* DirectoryList.swift in Sources */,
 				29E8008E2A7C262B001AB9EF /* EnumExtensions.swift in Sources */,
-				29F44E9C2A7AC79C0087A795 /* SettingsView.swift in Sources */,
 				29F44EA02A7B18B80087A795 /* DirectoryContainerViewModel.swift in Sources */,
 				29E800862A7BEA23001AB9EF /* SettingsViewModel.swift in Sources */,
+				29F49D822A7D5BBB00EDF3BC /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
