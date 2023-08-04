@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2942B4732A7C379C00E4C254 /* OnboardingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2942B4722A7C379C00E4C254 /* OnboardingViewModelTests.swift */; };
+		2942B4792A7C5ADF00E4C254 /* SettingsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2942B4782A7C5ADF00E4C254 /* SettingsViewModelTests.swift */; };
+		29E800762A7B63B5001AB9EF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29E800782A7B63B5001AB9EF /* Localizable.strings */; };
+		29E800822A7BDFAA001AB9EF /* DirectoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E800812A7BDFAA001AB9EF /* DirectoryList.swift */; };
+		29E800842A7BE1D8001AB9EF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E800832A7BE1D8001AB9EF /* Launch Screen.storyboard */; };
+		29E800862A7BEA23001AB9EF /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E800852A7BEA23001AB9EF /* SettingsViewModel.swift */; };
+		29E800892A7C1FA0001AB9EF /* MainDirectoryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E800882A7C1FA0001AB9EF /* MainDirectoryViewModelTests.swift */; };
+		29E8008C2A7C206E001AB9EF /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E8008B2A7C206E001AB9EF /* MockAPIService.swift */; };
+		29E8008E2A7C262B001AB9EF /* EnumExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E8008D2A7C262B001AB9EF /* EnumExtensions.swift */; };
+		29EFAB1B2A7D43D100C85AEA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EFAB1A2A7D43D100C85AEA /* StringExtension.swift */; };
+		29F44E4D2A7AB2680087A795 /* TDTakehomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E4C2A7AB2670087A795 /* TDTakehomeApp.swift */; };
+		29F44E512A7AB2690087A795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F44E502A7AB2690087A795 /* Assets.xcassets */; };
+		29F44E542A7AB2690087A795 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F44E532A7AB2690087A795 /* Preview Assets.xcassets */; };
+		29F44E7A2A7AB2C50087A795 /* EmployeeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E792A7AB2C50087A795 /* EmployeeModels.swift */; };
+		29F44E802A7AB34D0087A795 /* MainDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E7F2A7AB34D0087A795 /* MainDirectoryView.swift */; };
+		29F44E822A7AB35A0087A795 /* EmployeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E812A7AB35A0087A795 /* EmployeeDetailView.swift */; };
+		29F44E842A7AB3700087A795 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E832A7AB3700087A795 /* OnboardingView.swift */; };
+		29F44E872A7AB4C60087A795 /* DirectoryContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E862A7AB4C60087A795 /* DirectoryContainerView.swift */; };
+		29F44E8A2A7AB5460087A795 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E892A7AB5460087A795 /* Constants.swift */; };
+		29F44E8E2A7AB7610087A795 /* EmployeeDirectoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E8D2A7AB7610087A795 /* EmployeeDirectoryService.swift */; };
+		29F44E922A7AB8790087A795 /* APIErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E912A7AB8790087A795 /* APIErrors.swift */; };
+		29F44E942A7AB9690087A795 /* MainDirectoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E932A7AB9690087A795 /* MainDirectoryViewModel.swift */; };
+		29F44E972A7ABBD10087A795 /* DirectoryEmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E962A7ABBD10087A795 /* DirectoryEmployeeCell.swift */; };
+		29F44E992A7AC5ED0087A795 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E982A7AC5ED0087A795 /* SearchBar.swift */; };
+		29F44E9C2A7AC79C0087A795 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E9B2A7AC79C0087A795 /* SettingsView.swift */; };
+		29F44E9E2A7B179C0087A795 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E9D2A7B179C0087A795 /* OnboardingViewModel.swift */; };
+		29F44EA02A7B18B80087A795 /* DirectoryContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F44E9F2A7B18B80087A795 /* DirectoryContainerViewModel.swift */; };
+		479367E9E1117B14DB0D43D7 /* Pods_TDTakehomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6573DA36B939B5277623498 /* Pods_TDTakehomeTests.framework */; };
+		4F6180F719FAA2C6D51B5C88 /* Pods_TDTakehome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9E9F55030E720FE308399A /* Pods_TDTakehome.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29F44E5A2A7AB2690087A795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29F44E412A7AB2670087A795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29F44E482A7AB2670087A795;
+			remoteInfo = TDTakehome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D8A268917E49645675A711A /* Pods-TDTakehomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDTakehomeTests.debug.xcconfig"; path = "Target Support Files/Pods-TDTakehomeTests/Pods-TDTakehomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2942B4722A7C379C00E4C254 /* OnboardingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModelTests.swift; sourceTree = "<group>"; };
+		2942B4782A7C5ADF00E4C254 /* SettingsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModelTests.swift; sourceTree = "<group>"; };
+		29E800792A7B63C7001AB9EF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		29E8007A2A7B63D5001AB9EF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		29E8007C2A7B6A5C001AB9EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		29E800812A7BDFAA001AB9EF /* DirectoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryList.swift; sourceTree = "<group>"; };
+		29E800832A7BE1D8001AB9EF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		29E800852A7BEA23001AB9EF /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		29E800872A7BEC37001AB9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		29E800882A7C1FA0001AB9EF /* MainDirectoryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDirectoryViewModelTests.swift; sourceTree = "<group>"; };
+		29E8008B2A7C206E001AB9EF /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
+		29E8008D2A7C262B001AB9EF /* EnumExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumExtensions.swift; sourceTree = "<group>"; };
+		29EFAB1A2A7D43D100C85AEA /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		29F44E492A7AB2670087A795 /* TDTakehome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDTakehome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F44E4C2A7AB2670087A795 /* TDTakehomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TDTakehomeApp.swift; path = "../New Group/TDTakehomeApp.swift"; sourceTree = "<group>"; };
+		29F44E502A7AB2690087A795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29F44E532A7AB2690087A795 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29F44E592A7AB2690087A795 /* TDTakehomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDTakehomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F44E792A7AB2C50087A795 /* EmployeeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModels.swift; sourceTree = "<group>"; };
+		29F44E7F2A7AB34D0087A795 /* MainDirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainDirectoryView.swift; path = "TDTakehome/New Group1/MainDirectoryView.swift"; sourceTree = SOURCE_ROOT; };
+		29F44E812A7AB35A0087A795 /* EmployeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailView.swift; sourceTree = "<group>"; };
+		29F44E832A7AB3700087A795 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		29F44E862A7AB4C60087A795 /* DirectoryContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DirectoryContainerView.swift; path = "TDTakehome/New Group1/New Group/DirectoryContainerView.swift"; sourceTree = SOURCE_ROOT; };
+		29F44E892A7AB5460087A795 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "TDTakehome/New Group1/New Group/Constants.swift"; sourceTree = SOURCE_ROOT; };
+		29F44E8D2A7AB7610087A795 /* EmployeeDirectoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmployeeDirectoryService.swift; path = "TDTakehome/New Group1/New Group/EmployeeDirectoryService.swift"; sourceTree = SOURCE_ROOT; };
+		29F44E912A7AB8790087A795 /* APIErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrors.swift; sourceTree = "<group>"; };
+		29F44E932A7AB9690087A795 /* MainDirectoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDirectoryViewModel.swift; sourceTree = "<group>"; };
+		29F44E962A7ABBD10087A795 /* DirectoryEmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryEmployeeCell.swift; sourceTree = "<group>"; };
+		29F44E982A7AC5ED0087A795 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		29F44E9B2A7AC79C0087A795 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = "TDTakehome/New Group1/Directory/Components/SettingsView.swift"; sourceTree = SOURCE_ROOT; };
+		29F44E9D2A7B179C0087A795 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		29F44E9F2A7B18B80087A795 /* DirectoryContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryContainerViewModel.swift; sourceTree = "<group>"; };
+		3BB1A05F79E2DB6D6A1601DA /* Pods-TDTakehome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDTakehome.debug.xcconfig"; path = "Target Support Files/Pods-TDTakehome/Pods-TDTakehome.debug.xcconfig"; sourceTree = "<group>"; };
+		58097ECFCD1A5F5A9FA2BFAC /* Pods_TDTakehome_TDTakehomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDTakehome_TDTakehomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C46E26DE2494A8C4FF0727F /* Pods-TDTakehome-TDTakehomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDTakehome-TDTakehomeUITests.debug.xcconfig"; path = "Target Support Files/Pods-TDTakehome-TDTakehomeUITests/Pods-TDTakehome-TDTakehomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1C8AE7654DDC5F5FEECF5BE /* Pods-TDTakehome-TDTakehomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDTakehome-TDTakehomeUITests.release.xcconfig"; path = "Target Support Files/Pods-TDTakehome-TDTakehomeUITests/Pods-TDTakehome-TDTakehomeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC29ECB10140B51379F3C2D0 /* Pods-TDTakehome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDTakehome.release.xcconfig"; path = "Target Support Files/Pods-TDTakehome/Pods-TDTakehome.release.xcconfig"; sourceTree = "<group>"; };
+		F410844323E4E164AF2E82AF /* Pods-TDTakehomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDTakehomeTests.release.xcconfig"; path = "Target Support Files/Pods-TDTakehomeTests/Pods-TDTakehomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6573DA36B939B5277623498 /* Pods_TDTakehomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDTakehomeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9E9F55030E720FE308399A /* Pods_TDTakehome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDTakehome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29F44E462A7AB2670087A795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6180F719FAA2C6D51B5C88 /* Pods_TDTakehome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F44E562A7AB2690087A795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479367E9E1117B14DB0D43D7 /* Pods_TDTakehomeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2908048D2A7B5E640063E4DC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				29EFAB1A2A7D43D100C85AEA /* StringExtension.swift */,
+				29E8008D2A7C262B001AB9EF /* EnumExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		290804902A7B5EDA0063E4DC /* Translations */ = {
+			isa = PBXGroup;
+			children = (
+				29E800782A7B63B5001AB9EF /* Localizable.strings */,
+			);
+			path = Translations;
+			sourceTree = "<group>";
+		};
+		29E8008A2A7C205B001AB9EF /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				29E8008B2A7C206E001AB9EF /* MockAPIService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		29F44E402A7AB2670087A795 = {
+			isa = PBXGroup;
+			children = (
+				29F44E4B2A7AB2670087A795 /* TDTakehome */,
+				29F44E5C2A7AB2690087A795 /* TDTakehomeTests */,
+				29F44E4A2A7AB2670087A795 /* Products */,
+				618DE33E6075C0A226F49273 /* Pods */,
+				725306E19126A60908DAD2E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29F44E4A2A7AB2670087A795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29F44E492A7AB2670087A795 /* TDTakehome.app */,
+				29F44E592A7AB2690087A795 /* TDTakehomeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29F44E4B2A7AB2670087A795 /* TDTakehome */ = {
+			isa = PBXGroup;
+			children = (
+				29E800872A7BEC37001AB9EF /* Info.plist */,
+				29F44E8F2A7AB8380087A795 /* Application */,
+				29F44E8C2A7AB73E0087A795 /* Services */,
+				29F44E882A7AB5360087A795 /* Resources */,
+				29F44E762A7AB27D0087A795 /* Models */,
+				29F44E772A7AB2910087A795 /* Views */,
+				29F44E782A7AB29F0087A795 /* ViewModels */,
+				29F44E502A7AB2690087A795 /* Assets.xcassets */,
+				29F44E522A7AB2690087A795 /* Preview Content */,
+				29E800832A7BE1D8001AB9EF /* Launch Screen.storyboard */,
+			);
+			path = TDTakehome;
+			sourceTree = "<group>";
+		};
+		29F44E522A7AB2690087A795 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				29F44E532A7AB2690087A795 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29F44E5C2A7AB2690087A795 /* TDTakehomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				29E800882A7C1FA0001AB9EF /* MainDirectoryViewModelTests.swift */,
+				2942B4722A7C379C00E4C254 /* OnboardingViewModelTests.swift */,
+				2942B4782A7C5ADF00E4C254 /* SettingsViewModelTests.swift */,
+				29E8008A2A7C205B001AB9EF /* Mocks */,
+			);
+			path = TDTakehomeTests;
+			sourceTree = "<group>";
+		};
+		29F44E762A7AB27D0087A795 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29F44E792A7AB2C50087A795 /* EmployeeModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		29F44E772A7AB2910087A795 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29F44E852A7AB4B40087A795 /* DirectoryContainer */,
+				29F44E7E2A7AB3210087A795 /* Directory */,
+				29F44E9A2A7AC78C0087A795 /* SettingsView */,
+				29F44E7D2A7AB2F80087A795 /* Onboarding */,
+			);
+			name = Views;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		29F44E782A7AB29F0087A795 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				29F44E932A7AB9690087A795 /* MainDirectoryViewModel.swift */,
+				29F44E9D2A7B179C0087A795 /* OnboardingViewModel.swift */,
+				29F44E9F2A7B18B80087A795 /* DirectoryContainerViewModel.swift */,
+				29E800852A7BEA23001AB9EF /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		29F44E7D2A7AB2F80087A795 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				29F44E832A7AB3700087A795 /* OnboardingView.swift */,
+			);
+			name = Onboarding;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		29F44E7E2A7AB3210087A795 /* Directory */ = {
+			isa = PBXGroup;
+			children = (
+				29F44E7F2A7AB34D0087A795 /* MainDirectoryView.swift */,
+				29F44E812A7AB35A0087A795 /* EmployeeDetailView.swift */,
+				29F44E952A7ABBBB0087A795 /* Components */,
+			);
+			path = Directory;
+			sourceTree = "<group>";
+		};
+		29F44E852A7AB4B40087A795 /* DirectoryContainer */ = {
+			isa = PBXGroup;
+			children = (
+				29F44E862A7AB4C60087A795 /* DirectoryContainerView.swift */,
+			);
+			path = DirectoryContainer;
+			sourceTree = "<group>";
+		};
+		29F44E882A7AB5360087A795 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				290804902A7B5EDA0063E4DC /* Translations */,
+				2908048D2A7B5E640063E4DC /* Extensions */,
+				29F44E902A7AB8500087A795 /* Enums */,
+				29F44E892A7AB5460087A795 /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		29F44E8C2A7AB73E0087A795 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				29F44E8D2A7AB7610087A795 /* EmployeeDirectoryService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		29F44E8F2A7AB8380087A795 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				29F44E4C2A7AB2670087A795 /* TDTakehomeApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		29F44E902A7AB8500087A795 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				29F44E912A7AB8790087A795 /* APIErrors.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		29F44E952A7ABBBB0087A795 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				29F44E962A7ABBD10087A795 /* DirectoryEmployeeCell.swift */,
+				29F44E982A7AC5ED0087A795 /* SearchBar.swift */,
+				29E800812A7BDFAA001AB9EF /* DirectoryList.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		29F44E9A2A7AC78C0087A795 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				29F44E9B2A7AC79C0087A795 /* SettingsView.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		618DE33E6075C0A226F49273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BB1A05F79E2DB6D6A1601DA /* Pods-TDTakehome.debug.xcconfig */,
+				EC29ECB10140B51379F3C2D0 /* Pods-TDTakehome.release.xcconfig */,
+				7C46E26DE2494A8C4FF0727F /* Pods-TDTakehome-TDTakehomeUITests.debug.xcconfig */,
+				E1C8AE7654DDC5F5FEECF5BE /* Pods-TDTakehome-TDTakehomeUITests.release.xcconfig */,
+				1D8A268917E49645675A711A /* Pods-TDTakehomeTests.debug.xcconfig */,
+				F410844323E4E164AF2E82AF /* Pods-TDTakehomeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		725306E19126A60908DAD2E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB9E9F55030E720FE308399A /* Pods_TDTakehome.framework */,
+				58097ECFCD1A5F5A9FA2BFAC /* Pods_TDTakehome_TDTakehomeUITests.framework */,
+				F6573DA36B939B5277623498 /* Pods_TDTakehomeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29F44E482A7AB2670087A795 /* TDTakehome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F44E6D2A7AB2690087A795 /* Build configuration list for PBXNativeTarget "TDTakehome" */;
+			buildPhases = (
+				54121D2B0067290B130EC228 /* [CP] Check Pods Manifest.lock */,
+				29F44E452A7AB2670087A795 /* Sources */,
+				29F44E462A7AB2670087A795 /* Frameworks */,
+				29F44E472A7AB2670087A795 /* Resources */,
+				6C98042FC0D47E6B60C6664D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDTakehome;
+			productName = TDTakehome;
+			productReference = 29F44E492A7AB2670087A795 /* TDTakehome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29F44E582A7AB2690087A795 /* TDTakehomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F44E702A7AB2690087A795 /* Build configuration list for PBXNativeTarget "TDTakehomeTests" */;
+			buildPhases = (
+				0DBFE3C9DE932001D53A1CB8 /* [CP] Check Pods Manifest.lock */,
+				29F44E552A7AB2690087A795 /* Sources */,
+				29F44E562A7AB2690087A795 /* Frameworks */,
+				29F44E572A7AB2690087A795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29F44E5B2A7AB2690087A795 /* PBXTargetDependency */,
+			);
+			name = TDTakehomeTests;
+			productName = TDTakehomeTests;
+			productReference = 29F44E592A7AB2690087A795 /* TDTakehomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29F44E412A7AB2670087A795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = "";
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					29F44E482A7AB2670087A795 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					29F44E582A7AB2690087A795 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 29F44E482A7AB2670087A795;
+					};
+				};
+			};
+			buildConfigurationList = 29F44E442A7AB2670087A795 /* Build configuration list for PBXProject "TDTakehome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				"zh-Hans",
+			);
+			mainGroup = 29F44E402A7AB2670087A795;
+			productRefGroup = 29F44E4A2A7AB2670087A795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29F44E482A7AB2670087A795 /* TDTakehome */,
+				29F44E582A7AB2690087A795 /* TDTakehomeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29F44E472A7AB2670087A795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F44E542A7AB2690087A795 /* Preview Assets.xcassets in Resources */,
+				29E800762A7B63B5001AB9EF /* Localizable.strings in Resources */,
+				29E800842A7BE1D8001AB9EF /* Launch Screen.storyboard in Resources */,
+				29F44E512A7AB2690087A795 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F44E572A7AB2690087A795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DBFE3C9DE932001D53A1CB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDTakehomeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54121D2B0067290B130EC228 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDTakehome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C98042FC0D47E6B60C6664D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TDTakehome/Pods-TDTakehome-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TDTakehome/Pods-TDTakehome-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TDTakehome/Pods-TDTakehome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29F44E452A7AB2670087A795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F44E802A7AB34D0087A795 /* MainDirectoryView.swift in Sources */,
+				29F44E822A7AB35A0087A795 /* EmployeeDetailView.swift in Sources */,
+				29F44E842A7AB3700087A795 /* OnboardingView.swift in Sources */,
+				29F44E7A2A7AB2C50087A795 /* EmployeeModels.swift in Sources */,
+				29E800822A7BDFAA001AB9EF /* DirectoryList.swift in Sources */,
+				29F44E8A2A7AB5460087A795 /* Constants.swift in Sources */,
+				29F44E9E2A7B179C0087A795 /* OnboardingViewModel.swift in Sources */,
+				29F44E992A7AC5ED0087A795 /* SearchBar.swift in Sources */,
+				29F44E872A7AB4C60087A795 /* DirectoryContainerView.swift in Sources */,
+				29F44E4D2A7AB2680087A795 /* TDTakehomeApp.swift in Sources */,
+				29F44E8E2A7AB7610087A795 /* EmployeeDirectoryService.swift in Sources */,
+				29EFAB1B2A7D43D100C85AEA /* StringExtension.swift in Sources */,
+				29F44E942A7AB9690087A795 /* MainDirectoryViewModel.swift in Sources */,
+				29F44E972A7ABBD10087A795 /* DirectoryEmployeeCell.swift in Sources */,
+				29F44E922A7AB8790087A795 /* APIErrors.swift in Sources */,
+				29E8008E2A7C262B001AB9EF /* EnumExtensions.swift in Sources */,
+				29F44E9C2A7AC79C0087A795 /* SettingsView.swift in Sources */,
+				29F44EA02A7B18B80087A795 /* DirectoryContainerViewModel.swift in Sources */,
+				29E800862A7BEA23001AB9EF /* SettingsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F44E552A7AB2690087A795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2942B4792A7C5ADF00E4C254 /* SettingsViewModelTests.swift in Sources */,
+				29E8008C2A7C206E001AB9EF /* MockAPIService.swift in Sources */,
+				29E800892A7C1FA0001AB9EF /* MainDirectoryViewModelTests.swift in Sources */,
+				2942B4732A7C379C00E4C254 /* OnboardingViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29F44E5B2A7AB2690087A795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29F44E482A7AB2670087A795 /* TDTakehome */;
+			targetProxy = 29F44E5A2A7AB2690087A795 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29E800782A7B63B5001AB9EF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E800792A7B63C7001AB9EF /* zh-Hans */,
+				29E8007A2A7B63D5001AB9EF /* fr */,
+				29E8007C2A7B6A5C001AB9EF /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29F44E6B2A7AB2690087A795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29F44E6C2A7AB2690087A795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29F44E6E2A7AB2690087A795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB1A05F79E2DB6D6A1601DA /* Pods-TDTakehome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TDTakehome/Preview Content\"";
+				DEVELOPMENT_TEAM = QTC9TXRFDC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TDTakehome/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Employee Directory";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.llamastudios.TDTakehome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		29F44E6F2A7AB2690087A795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC29ECB10140B51379F3C2D0 /* Pods-TDTakehome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TDTakehome/Preview Content\"";
+				DEVELOPMENT_TEAM = QTC9TXRFDC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TDTakehome/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Employee Directory";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.llamastudios.TDTakehome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		29F44E712A7AB2690087A795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8A268917E49645675A711A /* Pods-TDTakehomeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTC9TXRFDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.llamastudios.TDTakehomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDTakehome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TDTakehome";
+			};
+			name = Debug;
+		};
+		29F44E722A7AB2690087A795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F410844323E4E164AF2E82AF /* Pods-TDTakehomeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTC9TXRFDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.llamastudios.TDTakehomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDTakehome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TDTakehome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29F44E442A7AB2670087A795 /* Build configuration list for PBXProject "TDTakehome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F44E6B2A7AB2690087A795 /* Debug */,
+				29F44E6C2A7AB2690087A795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F44E6D2A7AB2690087A795 /* Build configuration list for PBXNativeTarget "TDTakehome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F44E6E2A7AB2690087A795 /* Debug */,
+				29F44E6F2A7AB2690087A795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F44E702A7AB2690087A795 /* Build configuration list for PBXNativeTarget "TDTakehomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F44E712A7AB2690087A795 /* Debug */,
+				29F44E722A7AB2690087A795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29F44E412A7AB2670087A795 /* Project object */;
+}

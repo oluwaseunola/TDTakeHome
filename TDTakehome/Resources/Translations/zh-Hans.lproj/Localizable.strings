@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  TDTakehome
+
+  Created by Seun Olalekan on 2023-08-03.
+  
+*/
+
+"Welcome to Employee Directory!" = "欢迎来到员工名录!";
+"Lets get started" = "让我们开始吧";
+"Employee Directory" = "员工名录";
+"Loading" = "加载中";
+"Refresh" = "刷新";
+"There was an error fetching your contacts, please try again." = "获取您的联系人时出错，请重试。";
+"No contacts to display" = "没有可显示的联系人";
+"Cancel" = "取消";
+"Search" = "搜索";
+"Info" = "信息";
+"Directory" = "目录";
+"There was an error fetching your contacts, please try again later." = "获取您的联系人时出错，请稍后重试。";

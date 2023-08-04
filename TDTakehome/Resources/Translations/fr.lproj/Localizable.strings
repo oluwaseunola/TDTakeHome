@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  TDTakehome
+
+  Created by Seun Olalekan on 2023-08-03.
+  
+*/
+
+"Welcome to Employee Directory!" = "Bienvenue dans l'annuaire des employés!";
+"Lets get started" = "Commençons";
+"Employee Directory" = "Répertoire des employés";
+"Loading" = "Chargement";
+"Refresh" = "Rafraîchir";
+"There was an error fetching your contacts, please try again." = "Une erreur s'est produite lors de la récupération de vos contacts, veuillez réessayer.";
+"No contacts to display" = "Aucun contact à afficher";
+"Cancel" = "Annuler";
+"Search" = "Recherche";
+"Info" = "Info";
+"Directory" = "Annuaire";
+"There was an error fetching your contacts, please try again later." = "Une erreur s'est produite lors de la récupération de vos contacts, veuillez réessayer plus tard.";
+
+
+

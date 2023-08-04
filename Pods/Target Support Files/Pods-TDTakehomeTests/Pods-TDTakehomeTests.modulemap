@@ -1,0 +1,6 @@
+framework module Pods_TDTakehomeTests {
+  umbrella header "Pods-TDTakehomeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

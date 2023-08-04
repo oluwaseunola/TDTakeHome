@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "DBF747C8-7B10-4CCE-A5AB-A68B3FBFA3DC",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:TDTakehome.xcodeproj",
+        "identifier" : "29F44E582A7AB2690087A795",
+        "name" : "TDTakehomeTests"
+      }
+    }
+  ],
+  "version" : 1
+}

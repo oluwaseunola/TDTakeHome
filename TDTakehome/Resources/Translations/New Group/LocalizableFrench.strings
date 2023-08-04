@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  TDTakehome
+
+  Created by Seun Olalekan on 2023-08-03.
+  
+*/
+
+///MARK: ONBOARDING VIEW
+
+"Welcome to Employee Directory!" = "Bienvenue dans l'annuaire des employés!";
+"Lets get started" = 
